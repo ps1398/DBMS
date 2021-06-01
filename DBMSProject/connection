@@ -1,0 +1,7 @@
+create a new module let's say pool.py
+using mysql workbench 
+write the query like
+def connection():
+   db=mysql.connect(host='Yourhostname',port=portnumber,user='root',password='password',db='projectname')
+   cmd=db.cursor()
+   return db,cmd
